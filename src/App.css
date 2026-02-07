@@ -1,0 +1,118 @@
+@keyframes shine {
+  0%, 100% {
+    filter: drop-shadow(0 0 8px rgba(34, 211, 238, 0.8));
+  }
+  50% {
+    filter: drop-shadow(0 0 20px rgba(34, 211, 238, 1)) drop-shadow(0 0 30px rgba(56, 189, 248, 0.8));
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(34, 211, 238, 0.5), 0 0 20px rgba(34, 211, 238, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(34, 211, 238, 0.8), 0 0 40px rgba(56, 189, 248, 0.6);
+  }
+}
+
+.shine-icon {
+  animation: shine 2s ease-in-out infinite;
+}
+
+.pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+.pulse-glow:hover {
+  animation: none !important;
+  box-shadow: 0 0 5px rgba(30, 41, 59, 0.8) !important;
+}
+
+/* Floating Particles Animation */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) translateX(0px);
+  }
+  33% {
+    transform: translateY(-20px) translateX(10px);
+  }
+  66% {
+    transform: translateY(10px) translateX(-10px);
+  }
+}
+
+.particle {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(34, 211, 238, 0.8) 0%, rgba(34, 211, 238, 0) 70%);
+  pointer-events: none;
+  animation: float linear infinite;
+}
+
+/* Animated Gradient Border */
+@keyframes rotate-gradient {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animated-border {
+  position: relative;
+  overflow: hidden;
+}
+
+.animated-border::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  background: conic-gradient(
+    from 0deg,
+    transparent 0%,
+    rgba(34, 211, 238, 0.8) 25%,
+    rgba(56, 189, 248, 0.8) 50%,
+    transparent 75%,
+    transparent 100%
+  );
+  border-radius: inherit;
+  animation: rotate-gradient 3s linear infinite;
+  z-index: -1;
+}
+
+.animated-border::after {
+  content: '';
+  position: absolute;
+  inset: 2px;
+  background: inherit;
+  border-radius: inherit;
+  z-index: -1;
+}
+
+/* Scroll Fade In Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+/* 3D Tilt Effect */
+.tilt-card {
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease;
+}
+
+.tilt-card:hover {
+  transform: perspective(1000px) rotateX(var(--rotate-x, 0deg)) rotateY(var(--rotate-y, 0deg)) scale(1.05);
+}
