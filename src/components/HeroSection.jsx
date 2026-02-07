@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import SocialLinks from './SocialLinks';
+import profileImageUrl from "../assets/santu.jpeg";
 
 const HeroSection = ({ scrollToSection }) => {
   // Replace this URL with your image URL
-  const profileImageUrl = "../assets/santu.jpeg";
+  
   
   const [displayText, setDisplayText] = useState('');
   const [roleIndex, setRoleIndex] = useState(0);
