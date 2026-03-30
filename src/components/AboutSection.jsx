@@ -17,7 +17,7 @@ const AboutSection = () => {
             <span className="font-semibold text-cyan-400">Full Stack Developer Intern</span> at Unified Mentor
           </p>
           <p className="text-gray-400">
-            Working with MERN stack (MongoDB, Express.js, React.js, Node.js). Currently 1 month into a 6-month internship, gaining hands-on experience in full-stack development.
+            Working with MERN stack (MongoDB, Express.js, React.js, Node.js). Currently 3 month into a 6-month internship, gaining hands-on experience in full-stack development.
           </p>
         </>
       )

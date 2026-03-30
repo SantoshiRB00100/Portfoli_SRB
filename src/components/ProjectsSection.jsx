@@ -26,29 +26,31 @@ const ProjectsSection = () => {
 
   const projects = [
     {
-      title: 'Weather App',
-      description: 'A responsive weather application that provides real-time weather information',
-      tech: ['HTML', 'CSS', 'JavaScript'],
-      link: 'https://lnkd.in/gS8wYmaC'
-    },
-    {
-      title: 'Stone Paper Scissor Game',
-      description: 'An interactive game built with vanilla JavaScript featuring smooth animations',
-      tech: ['HTML', 'CSS', 'JavaScript'],
-      link: 'https://lnkd.in/g7yTAr4p'
-    },
-    {
-      title: 'Amazon Clone',
-      description: 'E-commerce platform clone with responsive design and modern UI',
-      tech: ['HTML', 'CSS', 'JavaScript'],
-      link: 'https://lnkd.in/gTtj-Bcn'
-    },
-    {
-      title: 'Movie App Clone',
-      description: 'Movie browsing application with modern React architecture',
-      tech: ['React.js', 'Tailwind CSS'],
-      link: '#'
-    }
+  title: 'To-Do List Web Application',
+  description: 'Full-stack MERN To-Do application where users can add, update, and delete tasks with priority and category management.',
+  tech: ['React.js', 'Tailwind CSS', 'Node.js', 'Express.js', 'MongoDB'],
+  link: 'https://to-do-list-frontend-topaz.vercel.app/',
+  
+},
+{
+  title: 'Blog Website (CRUD)',
+  description: 'MERN stack blog application that allows users to create, read, update, and delete blog posts with a responsive UI.',
+  tech: ['React.js', 'Tailwind CSS', 'Node.js', 'Express.js', 'MongoDB'],
+  link: 'https://blog-frontend-rose-six.vercel.app/',
+  
+},
+{
+  title: 'Expense Tracker',
+  description: 'A MERN stack expense tracker that helps users manage and track their daily expenses with a clean interface.',
+  tech: ['React.js', 'Tailwind CSS', 'Node.js', 'Express.js', 'MongoDB'],
+  link: 'https://expense-frontend-peach.vercel.app/'
+},
+{
+  title: 'Personal Portfolio Website',
+  description: 'A responsive portfolio website showcasing projects, skills, and experience built using modern React and Tailwind CSS.',
+  tech: ['React.js', 'Tailwind CSS'],
+  link: 'https://portfoli-srb-9i82.vercel.app/'
+}
   ];
 
   return (
