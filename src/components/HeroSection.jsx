@@ -11,7 +11,7 @@ const HeroSection = ({ scrollToSection }) => {
   const [charIndex, setCharIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   
-  const roles = ['Frontend Developer', 'Learning Java DSA'];
+  const roles = ['MERN Stack Developer', 'Learning Java DSA'];
   
   useEffect(() => {
     const currentRole = roles[roleIndex];
