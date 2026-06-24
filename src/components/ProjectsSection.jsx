@@ -26,17 +26,24 @@ const ProjectsSection = () => {
 
   const projects = [
     {
-  title: 'To-Do List Web Application',
-  description: 'Full-stack MERN To-Do application where users can add, update, and delete tasks with priority and category management.',
-  tech: ['React.js', 'Tailwind CSS', 'Node.js', 'Express.js', 'MongoDB'],
-  link: 'https://to-do-list-frontend-topaz.vercel.app/',
-  
+  title: 'Chat Application',
+  description: 'A real-time chat application built with the MERN stack, enabling users to exchange messages instantly through a modern and responsive interface. Features user authentication, online status tracking, and seamless communication.',
+  tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Socket.io'],
+  link: 'https://chat-app-frontend-five-taupe.vercel.app/',
 },
+
+{
+  title: 'Clinic Management System',
+  description: 'A full-stack clinic management platform designed for patients, doctors, and administrators. Features appointment booking, patient record management, doctor dashboards, and role-based access control for efficient healthcare operations.',
+  tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT Authentication'],
+  link: 'https://clinic-management-frontend-alpha.vercel.app/',
+},
+
 {
   title: 'Blog Website (CRUD)',
   description: 'MERN stack blog application that allows users to create, read, update, and delete blog posts with a responsive UI.',
   tech: ['React.js', 'Tailwind CSS', 'Node.js', 'Express.js', 'MongoDB'],
-  link: 'https://blog-frontend-rose-six.vercel.app/',
+  link: 'https://blog-frontend-q9r3.vercel.app/',
   
 },
 {
@@ -45,12 +52,7 @@ const ProjectsSection = () => {
   tech: ['React.js', 'Tailwind CSS', 'Node.js', 'Express.js', 'MongoDB'],
   link: 'https://expense-frontend-peach.vercel.app/'
 },
-{
-  title: 'Personal Portfolio Website',
-  description: 'A responsive portfolio website showcasing projects, skills, and experience built using modern React and Tailwind CSS.',
-  tech: ['React.js', 'Tailwind CSS'],
-  link: 'https://portfoli-srb-9i82.vercel.app/'
-}
+
   ];
 
   return (

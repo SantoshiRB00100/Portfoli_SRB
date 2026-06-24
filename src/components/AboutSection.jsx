@@ -6,7 +6,7 @@ const AboutSection = () => {
     {
       icon: <GraduationCap className="text-cyan-400 shine-icon" size={32} />,
       title: "Education",
-      content: "Currently in 3rd year of Bachelor of Engineering in Computer Science at Jain College of Engineering, Belagavi. Focused on building strong fundamentals in programming and web development."
+      content: "Currently in 4th year of Bachelor of Engineering in Computer Science at Jain College of Engineering, Belagavi. Focused on building strong fundamentals in programming and web development."
     },
     {
       icon: <Briefcase className="text-sky-400 shine-icon" size={32} />,
@@ -17,7 +17,7 @@ const AboutSection = () => {
             <span className="font-semibold text-cyan-400">Full Stack Developer Intern</span> at Unified Mentor
           </p>
           <p className="text-gray-400">
-            Working with MERN stack (MongoDB, Express.js, React.js, Node.js). Currently 3 month into a 6-month internship, gaining hands-on experience in full-stack development.
+            MERN Stack Developer with hands-on experience in MongoDB, Express.js, React.js, and Node.js. Successfully completed a 6-month Full Stack Web Development internship, developing real-world projects and strengthening skills in frontend, backend, database management, and deployment.
           </p>
         </>
       )
